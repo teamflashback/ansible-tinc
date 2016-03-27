@@ -1,0 +1,7 @@
+[vpn]
+web01  vpn_ip=10.0.0.1 ansible_host=boomr-web-1 remote_user=web
+riak01 vpn_ip=10.0.0.2 ansible_host=boomr-riak-1 remote_user=riak
+riak02 vpn_ip=10.0.0.3 ansible_host=boomr-riak-2 remote_user=riak
+riak03 vpn_ip=10.0.0.4 ansible_host=boomr-riak-3 remote_user=riak
+
+[removevpn]
